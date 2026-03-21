@@ -30,7 +30,7 @@ const About = () => {
               transition={{ duration: 0.9, ease: "easeOut" }}
               viewport={{ once: false, amount: 0.2 }}
               className="w-full h-full object-cover"
-              src={assets.profileImg}
+              src={assets.profileImg1}
               alt="photo"
             />
           </div>

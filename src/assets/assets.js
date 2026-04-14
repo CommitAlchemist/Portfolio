@@ -17,10 +17,10 @@ import {
 import { SiExpress } from "react-icons/si";
 
 import profileImg from "../assets/profile.jpeg";
-import projectImg3 from "../assets/project3.png";
 import profileImg1 from "../assets/profile1.jpeg";
 import projectImg1 from "../assets/project1.avif";
 import projectImg2 from "../assets/project2.avif";
+import projectImg3 from "../assets/project3.jpeg";
 import projectImg4 from "../assets/project4.avif";
 import projectImg5 from "../assets/project5.avif";
 
@@ -89,6 +89,7 @@ export const projects = [
     title: "Finance Dashboard [Backend]",
     description:
       "Built a Finance Dashboard Backend with secure JWT authentication, role-based access control, and efficient record management using Node.js and MongoDB. Implemented filtering, pagination, and analytics (income/expense trends) with a scalable Controller–Service architecture.",
+    image: projectImg3,
     tech: ["Node.js", "Express.js", "MongoDB"],
     icons: [FaNodeJs, SiExpress, FaDatabase],
     demo: "#",

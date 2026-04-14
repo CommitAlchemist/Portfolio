@@ -20,7 +20,7 @@ import profileImg from "../assets/profile.jpeg";
 import profileImg1 from "../assets/profile1.jpeg";
 import projectImg1 from "../assets/project1.avif";
 import projectImg2 from "../assets/project2.avif";
-import projectImg3 from "../assets/project3.jpg";
+import projectImg3 from "../assets/project3.avif";
 import projectImg4 from "../assets/project4.avif";
 import projectImg5 from "../assets/project5.avif";
 

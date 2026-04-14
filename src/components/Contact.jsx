@@ -129,7 +129,7 @@ const Contact = () => {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="https://www.instagram.com/vidya._.shree_?igsh=MWR5bTByOTF6MTNjbw%3D%3D&utm_source=qr"
+                  href=""
                   className="w-12 h-12 rounded-full bg-dark-300 flex items-center justify-center text-purple hover:bg-pink hover:text-white transition duration-300"
                   target="_blank"
                 >

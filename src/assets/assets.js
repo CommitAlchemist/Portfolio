@@ -14,8 +14,10 @@ import {
   FaCloud,
   FaRobot,
 } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
 
 import profileImg from "../assets/profile.jpeg";
+import projectImg3 from "../assets/project3.png";
 import profileImg1 from "../assets/profile1.jpeg";
 import projectImg1 from "../assets/project1.avif";
 import projectImg2 from "../assets/project2.avif";
@@ -83,6 +85,15 @@ export const skills = [
 ];
 
 export const projects = [
+  {
+    title: "Finance Dashboard [Backend]",
+    description:
+      "Built a Finance Dashboard Backend with secure JWT authentication, role-based access control, and efficient record management using Node.js and MongoDB. Implemented filtering, pagination, and analytics (income/expense trends) with a scalable Controller–Service architecture.",
+    tech: ["Node.js", "Express.js", "MongoDB"],
+    icons: [FaNodeJs, SiExpress, FaDatabase],
+    demo: "#",
+    code: "#",
+  },
   {
     title: "E-Commerce Admin Dashboard",
     description:

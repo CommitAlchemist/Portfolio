@@ -12,7 +12,10 @@ import {
   FaFire,
   FaDatabase,
   FaCloud,
+  FaJava,
   FaRobot,
+  FaHtml5,
+  FaCss3,
 } from "react-icons/fa";
 import { SiExpress } from "react-icons/si";
 
@@ -23,6 +26,7 @@ import projectImg2 from "../assets/project2.avif";
 import projectImg3 from "../assets/project3.avif";
 import projectImg4 from "../assets/project4.avif";
 import projectImg5 from "../assets/project5.avif";
+import projectImg6 from "../assets/project6.avif";
 
 export const assets = {
   profileImg,
@@ -96,6 +100,16 @@ export const projects = [
     code: "#",
   },
   {
+    title: "Food Delivery application",
+    description:
+      "Worked on a Java Full-Stack Food Delivery Application.  Developed using JDBC and JEE and JSP in the backend. Enhancing scalability, maintainability, and backend performance through modern frameworks and optimized data handling.",
+    image: projectImg6,
+    tech: ["Java", "JDBC", "JSP", "JEE"],
+    icons: [FaJava],
+    demo: "#",
+    code: "#",
+  },
+  {
     title: "E-Commerce Admin Dashboard",
     description:
       "A scalable admin dashboard to manage products, orders, users, and analytics with real-time insights.",
@@ -111,7 +125,7 @@ export const projects = [
       "A responsive weather app that fetches real-time data and displays accurate forecasts based on user location.",
     image: projectImg2,
     tech: ["HTML", "CSS", "Javascript"],
-    icons: [FaVuejs, FaFire, FaCloud, FaDatabase],
+    icons: [FaHtml5, FaCss3],
     demo: "#",
     code: "#",
   },
